@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://olivierlacan.github.com
+title: Oli
+subtitle: Unfettered thoughts.
+author: Olivier Lacan
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -21,7 +21,7 @@ email:
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
 port: 4000
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 source: source
 destination: public
 plugins: plugins
@@ -30,15 +30,15 @@ category_dir: blog/categories
 markdown: rdiscount
 pygments: true
 
-paginate: 10 # Posts per page on the blog index
-recent_posts: 5 # Posts in the sidebar Recent Posts section
+paginate: 1 # Posts per page on the blog index
+recent_posts: 10 # Posts in the sidebar Recent Posts section
 
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user: olivierlacan
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -46,7 +46,7 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google Plus
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Pinboard
