@@ -45,9 +45,9 @@ article {
   }
   img {
     max-width: 100%;
-    border: .5em solid #fff;
-    @include border-radius(.3em);
-    @include box-shadow(rgba(#000, .15) 0 1px 4px);
+    // border: .25em solid #111;
+    // @include border-radius(.3em);
+    // @include box-shadow(rgba(#000, .15) 0 1px 4px);
     @include box-sizing(border-box);
     display: block;
     margin: 0 auto 1.5em;
@@ -118,18 +118,57 @@ article + article {
     a { color: inherit; &:hover { color: $link-color-hover; } }
   }
   a[rel=full-article] {
-    background: darken($main-bg, 5);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    background: #4D6917;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8aa550), color-stop(100%, #4d6917));
+    background-image: -webkit-linear-gradient(#8aa550, #4d6917);
+    background-image: -moz-linear-gradient(#8aa550, #4d6917);
+    background-image: -o-linear-gradient(#8aa550, #4d6917);
+    background-image: -ms-linear-gradient(#8aa550, #4d6917);
+    background-image: linear-gradient(#8aa550, #4d6917);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset;
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset;
+    opacity: 0.85;
     display: inline-block;
     padding: .4em .8em;
     margin-right: .5em;
     text-decoration: none;
-    color: mix($text-color, $text-color-light);
-    @extend .serif;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+    @extend .sans;
     @include transition(background-color .5s);
     &:hover {
-      background: $link-color-hover;
-      text-shadow: none;
-      color: $main-bg;
+      opacity: 1;
+      -moz-transition: box-shadow 0.1s ease-out;
+      -webkit-transition: box-shadow 0.1s ease-out;
+      -o-transition: box-shadow 0.1s ease-out;
+      transition: box-shadow 0.1s ease-out;
+      -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset, rgba(255, 255, 255, 0.2) 0 4px 10px inset;
+      -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset, rgba(255, 255, 255, 0.2) 0 4px 10px inset;
+      -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset, rgba(255, 255, 255, 0.2) 0 4px 10px inset;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.4) 0px 1px 2px inset, rgba(255, 255, 255, 0.2) 0 4px 10px inset;
+    }
+    &:active {
+      opacity: 1;
+      color: white;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #738a42), color-stop(100%, #476015));
+      background-image: -webkit-linear-gradient(#738a42, #476015);
+      background-image: -moz-linear-gradient(#738a42, #476015);
+      background-image: -o-linear-gradient(#738a42, #476015);
+      background-image: -ms-linear-gradient(#738a42, #476015);
+      background-image: linear-gradient(#738a42, #476015);
+      -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8) inset, 0 0 2px rgba(0, 0, 0, 0.9) inset;
+      -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8) inset, 0 0 2px rgba(0, 0, 0, 0.9) inset;
+      -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8) inset, 0 0 2px rgba(0, 0, 0, 0.9) inset;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.8) inset, 0 0 2px rgba(0, 0, 0, 0.9) inset;
     }
   }
   footer {

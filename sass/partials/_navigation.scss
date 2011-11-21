@@ -19,14 +19,14 @@ body > nav {
       @include border-radius(.5em);
       @include background-clip(padding-box);
       @include box-shadow(lighten($nav-bg, 2) 0 1px);
-      background-color: lighten($nav-bg, 15);
+      background-color: #333;
       border: 1px solid $nav-border;
-      color: #888;
+      color: #ccc;
       &:focus {
-        color: #444;
+        color: #ccc;
         border-color: #80b1df;
         @include box-shadow(#80b1df 0 0 4px, #80b1df 0 0 3px inset);
-        background-color: #fff;
+        background-color: #222;
         outline: none;
       }
     }
@@ -67,7 +67,6 @@ body > nav {
       margin-left: .8em;
       a {
         padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
       }
     }
     form {
