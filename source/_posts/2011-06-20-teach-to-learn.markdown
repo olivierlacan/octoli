@@ -3,7 +3,7 @@ layout: post
 title: "Teach to Learn"
 date: 2011-06-10 0:00
 comments: false
-categories:
+categories: education
 ---
 
 Many of my friends are teachers, children of teachers or people with a general disposition toward helping out others to learn stuff. For a while it puzzled me that I would somehow associate naturally with people like that. As I went through school, I kept thinking that you had to be a special kind of masochist to be willing to come back behind the bars (that's really how I saw it) to try to shove some sense into the bunch of ungrateful bastards that surrounded me. And I didn't exclude myself from the blame. Most of the time, I either didn't want to learn, didn't care or wanted to learn about anything except what was taught in school.

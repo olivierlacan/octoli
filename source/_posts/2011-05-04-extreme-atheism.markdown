@@ -3,7 +3,7 @@ layout: post
 title: "Extreme Atheism"
 date: 2011-05-04 0:00
 comments: false
-categories:
+categories: religion
 ---
 
 I recently replied to a friend, as a response to her reaction to this admittedly imperfect article from the Washington Post's opinion column entitled [Why do Americans still dislike atheists?](http://www.washingtonpost.com/opinions/why-do-americans-still-dislike-atheists/2011/02/18/AFqgnwGF_story.html).

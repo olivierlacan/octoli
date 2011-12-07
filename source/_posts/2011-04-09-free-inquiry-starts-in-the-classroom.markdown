@@ -3,7 +3,7 @@ layout: post
 title: "Free Inquiry Starts in the Classroom"
 date: 2011-04-09 0:00
 comments: false
-categories:
+categories: education
 ---
 {% blockquote Steven Levy, http://www.wired.com/magazine/2011/03/mf_larrypage/all/1 Larry Page Wants to Return Google to Its Startup Roots %}
 “You can’t understand Google,” vice president Marissa Mayer says, “unless you know that both Larry and Sergey were Montessori kids.” She’s referring to schools based on the educational philosophy of Maria Montessori, an Italian physician born in 1870 who believed that children should be allowed the freedom to pursue their interests. “In a Montessori school, you go paint because you have something to express or you just want to do it that afternoon, not because the teacher said so,” she says. “This is baked into how Larry and Sergey approach problems. They’re always asking, why should it be like that? It’s the way their brains were programmed early on.”

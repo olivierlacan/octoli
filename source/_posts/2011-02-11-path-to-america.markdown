@@ -3,7 +3,7 @@ layout: post
 title: "Path to America"
 date: 2011-02-11 0:00
 comments: false
-categories:
+categories: life
 ---
 
 I was looking around old photos for something I’m making for a great friend and I realized that I had never connected two important events in my life.
