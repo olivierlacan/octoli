@@ -1,6 +1,10 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+#story .s-story {
+  background-color: #222 !important;
+}
+
 html {
   background: none;
 }
@@ -54,6 +58,10 @@ body > nav {
   padding-left: 2em;
   padding-right: 2em;
 
+  > form {
+    display: none;
+  }
+
   a {
     &:link, &:visited {
       color: #333;
@@ -80,6 +88,12 @@ body > footer {
   border-radius: 0 0 5px 5px;
   border-top: none;
   border-bottom: none;
+
+  a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+  }
 }
 
 div#main, div#content {
@@ -101,8 +115,7 @@ div#content {
     border-bottom: 1px solid #011;
   }
 
-  > aside[role='sidebar'] {
-    background: #121414;
+  > aside.sidebar {
     color: #aaa;
     text-shadow: none;
     border-top: none;
@@ -130,11 +143,42 @@ div#content {
       right: 0;
     }
   }
+
+  .entry-content {
+    p code {
+      color: inherit;
+      padding: 1px 7px 3px;
+      margin: 0 2px;
+      background-color: rgba(0,0,0,.3);
+      border: none;
+    }
+    hr {
+      margin: 1.5em 0;
+    }
+  }
+
+  footer {
+    p.meta {
+      a:link, a:visited {
+        color: #AAA;
+        text-decoration: none;
+      }
+    }
+
+  }
   
 }
 
 .toggle-sidebar {
-  color: #333;
+  &:after {
+    color: black;
+    background: $nav-bg $noise-bg;
+  }
+  .collapse-sidebar & {
+    &:after {
+      color: white;
+    }
+  }
 }
 
 ul, ol {
@@ -143,4 +187,33 @@ ul, ol {
 
 #blog-archives h1 a {
   color: white;
+}
+
+article img, article video, article .flash-video {
+  border: none;
+  @include box-shadow(none);
+}
+
+div.pagination {
+  text-align: center;
+  font-size: .95em;
+  position: relative;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  border-top: 1px dashed rgba(255,255,255,.1);
+
+  a {
+    &:link, &:visited {
+      color: #AAA;
+      text-decoration: none;
+    }
+    &.prev {
+        position: absolute;
+        left: 0;
+    }
+    &.next {
+      position: absolute;
+      right: 0;
+    }
+  }
 }

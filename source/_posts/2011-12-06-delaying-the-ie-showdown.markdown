@@ -5,8 +5,35 @@ date: 2011-12-06 20:27
 comments: true
 categories: development
 ---
+I asked the lovely people on Twitter how they dealt with Internet Explorer during their development process in 2011 and what tools they used to do so.
 
-<script src="http://storify.com/olivierlacan/how-do-you-deal-with-internet-explorer.js"></script><noscript><a href="http://storify.com/olivierlacan/how-do-you-deal-with-internet-explorer" target="_blank">View the story "How do you deal with Internet Explorer?" on Storify</a>]</noscript>
+[My initial question](https://twitter.com/olivierlacan/status/144039798145957890)
+
+Alan – nicest guy in the world & very talented lead developer of [Treehouse](http://teamtreehouse.com) was the first to opine: 
+
+[Alan 1](https://twitter.com/commondream/status/144040509885784064)
+[Alan 2](https://twitter.com/commondream/status/144040553057755137)
+[Cory 1](https://twitter.com/coryperry/status/144041538052304897)
+
+I then asked a follow-up.
+
+[Follow-up](https://twitter.com/olivierlacan/status/144042582291398657)
+
+[Alan 3](https://twitter.com/commondream/status/144042513739694080)
+[Alan 4](https://twitter.com/commondream/status/144042750520729600)
+
+Speaking of talented fellas, Nick – a web designer at [Envy Labs](http://envylabs.com) who worked on [Code School](http://codeschool.com) and the fabulous Why-flavored redesign of [TryRuby.org](http://tryruby.org) – answered:
+
+[Nick 1](https://twitter.com/nickawalsh/status/144042925922336768)
+[Cory 2](https://twitter.com/coryperry/status/144042963339722753)
+
+Ryan – a swell guy from Jersey, designologist, co-founder and web designer at [Think Bigr](http://thinkbigr.com) – replied:
+
+[Ryan 1](https://twitter.com/ryanbarresi/status/144043308572880896)
+
+Last but not least, Mark – a terrific web designer at [Shopify](http://shopify.com), said:
+
+[Mark 1](https://twitter.com/markdunkley/status/144073547038461952)
 
 To conclude almost every single response presented an approach where styles are written in a standards-compliant environment (today that would be Chrome or Safari, more so than Firefox) then adjusted for IE's obsolete ways.
 
