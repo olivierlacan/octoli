@@ -63,7 +63,7 @@ So now I could do things like:
 <?php require("menu.html") ?>
 ```
 
-That little trick would reward me with a nasty error if by any chance my menu.html file was missing and stop loading my page altogether until the issue was addressed and all was right again in the world. And that was about the extent of my PHP knowledge for several months after that. I remember seeing `echo()` statements here and there and a few MySQL queries examples but I didn't get into fiddling with server-side programming until a few months and years later when I found a guy crazy enough to build a back-end system for one of my websites.
+That little trick would reward me with a nasty error if by any chance my menu.html file was missing and stop loading my page altogether until the issue was addressed and all was right again in the world. And that was about the extent of my PHP knowledge for several months after that. I remember seeing `echo()` statements here and there and a few [MySQL query](http://php.net/manual/en/function.mysql-query.php) examples but I didn't get into fiddling with server-side programming until a few months and years later when I found a guy crazy enough to build a back-end system for one of my websites.
 
 ## Stay hungry, stay DRY.
 

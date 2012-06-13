@@ -27,7 +27,7 @@ Speaking of talented fellas, Nick – a web designer at [Envy Labs](http://envyl
 [Nick 1](https://twitter.com/nickawalsh/status/144042925922336768)
 [Cory 2](https://twitter.com/coryperry/status/144042963339722753)
 
-Ryan – a swell guy from Jersey, designologist, co-founder and web designer at [Think Bigr](http://thinkbigr.com) – replied:
+Ryan – a swell guy from NY, designologist, co-founder and web designer at [Think Bigr](http://thinkbigr.com) – replied:
 
 [Ryan 1](https://twitter.com/ryanbarresi/status/144043308572880896)
 

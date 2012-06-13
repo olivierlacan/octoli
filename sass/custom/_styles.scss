@@ -145,9 +145,9 @@ div#content {
   }
 
   .entry-content {
-    p code {
+    p code, li code {
       color: inherit;
-      padding: 1px 7px 3px;
+      padding: 2px 7px 2px;
       margin: 0 2px;
       background-color: rgba(0,0,0,.3);
       border: none;
@@ -216,4 +216,9 @@ div.pagination {
       right: 0;
     }
   }
+}
+
+// embedtweet
+.tweet {
+  text-shadow: none !important;
 }
