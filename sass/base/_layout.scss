@@ -118,13 +118,6 @@ body.sidebar-footer {
   .toggle-sidebar { display: none; }
 }
 
-@media only screen and (max-width: 480px) {
-  p.meta { left: 0 }
-  #content header > h1 { 
-    padding-top: 0.7em
-  }
-}
-
 @media only screen and (min-width: 550px) {
   body > header { font-size: $header-font-size; }
 }
@@ -149,9 +142,6 @@ body.sidebar-footer {
       padding-top: $pad-medium/2;
       padding-bottom: $pad-medium/2;
       float: left;
-    }
-    article header p.meta {
-      top: -20px;
     }
   }
   aside.sidebar {
